@@ -2,6 +2,7 @@ import React from 'react'
 import "./HeroImgStyles.css"
 import IntroImg from "../assets/IntroImg.jpg"
 import { Link } from "react-router-dom"
+import ProfileImg from "../assets/ProfileImg.jpg"
 
 const HeroImg = () => {
   return (
@@ -10,7 +11,10 @@ const HeroImg = () => {
             <img className="intro-img" src={IntroImg} alt="IntroImg"/>
         </div>
         <div className="content">
-            <h1>Ploy Wandeevong</h1>
+          <div className="profile-img-container">
+          <img className="profile-img" src={ProfileImg} alt="ProfileImg"/>
+          </div>
+            <h2>Ploy Wandeevong</h2>
             <p>Hello, I'm an undergrad junior studying Computer Science and Engineering!</p>
             <div>
                 <Link to="/projects" className="btn">Projects</Link>
