@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import "./NavbarStyles.css"
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa"
+import Resume from "../files/resume.pdf"
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -23,26 +24,30 @@ const Navbar = () => {
 
   return (
     <div className= {color ? "header header-bg" : "header"}>
-        <Link to="/">
-            <h1>My Portfolio</h1>
-        </Link>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-                <Link to="/resume">Resume</Link>
-            </li>
-            <li>
-                <Link to="/contacts">Contact</Link>
-            </li>
-        </ul>
-        <div className="hamburger" onClick={handleClick}>
-            {click ? (<FaTimes size={20} style={{color: "#fff"}} />) : (<FaBars size={20} style={{color: "#fff"}} />)}
-        </div>
+        <nav className="nav container">
+            <Link to="/">
+                <h1 className="name-title">Ploy Wandeevong</h1>
+            </Link>
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/projects">Projects</Link>
+                </li>
+                <li>
+                    <a target="_blank" class="link" href={Resume} rel="noopener noreferrer"> 
+                        Resume 
+                    </a>
+                </li>
+                <li>
+                    <Link to="/contacts">Contact</Link>
+                </li>
+            </ul>
+            <div className="hamburger" onClick={handleClick}>
+                {click ? (<FaTimes size={20} style={{color: "#fff"}} />) : (<FaBars size={20} style={{color: "#fff"}} />)}
+            </div>
+        </nav>
     </div>
   )
 }
