@@ -1,6 +1,5 @@
 import React from 'react'
 import "./HeroImgStyles.css"
-import IntroImg from "../assets/IntroImg.jpg"
 import { Link } from "react-router-dom"
 import ProfileImg from "../assets/ProfileImg.jpg"
 import Resume from "../files/resume.pdf"
