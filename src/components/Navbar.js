@@ -36,7 +36,7 @@ const Navbar = () => {
                     <Link to="/projects">Projects</Link>
                 </li>
                 <li>
-                    <a target="_blank" class="link" href={Resume} rel="noopener noreferrer"> 
+                    <a target="_blank" className="link" href={Resume} rel="noopener noreferrer"> 
                         Resume 
                     </a>
                 </li>

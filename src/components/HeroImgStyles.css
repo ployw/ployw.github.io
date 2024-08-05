@@ -7,11 +7,13 @@
     justify-content: center;
 }
 
+.about-me {
+    display: block;
+    text-align: center;
+}
+
 .about-links {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero .content p {
@@ -19,9 +21,15 @@
     font-weight: var(--font-normal);
 }
 
+.profile-img {
+    clip-path: circle();
+    width: 130px;
+}
+
+
 @media screen and (max-width: 640px)
 { 
-    .hero .content p {
-        font-size: 1.4rem;
+    .home .about-content p {
+        font-size: 1rem;
     }
 }

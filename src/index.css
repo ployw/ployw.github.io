@@ -33,14 +33,16 @@
 
 body {
   background: var(--bg-color);
+  word-break: break-word;
 }
 
 div {
-  outline: solid red;
+  /*outline: solid red;*/
 }
 
 h1, h2, h3, p, a {
   color: white;
+  font-size: var(--normal-font-size);
 }
 
 a {
@@ -61,17 +63,15 @@ button {
   outline: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .highlight {
   color: var(--primary-color);
 }
 
 .container {
   max-width: 968px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -104,4 +104,8 @@ button:hover {
 
 .icon.button:hover {
   background-color: var(--primary-hover-lite-color);
+}
+
+.inner-div {
+  margin: 0.5rem;
 }
