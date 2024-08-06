@@ -12,7 +12,7 @@
   --secondary-lite-color: #f9eb9a91;
   --hover-color: rgb(185, 185, 185);
   --bg-color: #202023;
-  --bg-dark-color: #111111;
+  --bg-dark-color: #000000;
   --bg-lite-color: #202023d7;
 
   --header-height: 3rem;
@@ -64,6 +64,16 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .highlight {
