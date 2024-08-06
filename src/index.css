@@ -9,9 +9,11 @@
   --primary-hover-dark-color: #c5979dd2;
   --primary-hover-lite-color: #c5979d33;
   --secondary-color: #F9EA9A;
+  --secondary-lite-color: #f9eb9a91;
   --hover-color: rgb(185, 185, 185);
   --bg-color: #202023;
-  --bg-lite-color: #20202393;
+  --bg-dark-color: #111111;
+  --bg-lite-color: #202023d7;
 
   --header-height: 3rem;
   --big-font-size: 3.5rem;
@@ -19,7 +21,7 @@
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
+  --small-font-size: 0.8rem;
 
   --font-bold: 800;
   --font-normal: 100;
@@ -83,6 +85,7 @@ button {
 }
 
 .button {
+  text-align: center;
   display: inline-flex;
   padding: 0.5rem;
   margin: 0.25rem;

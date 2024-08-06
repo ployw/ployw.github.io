@@ -1,15 +1,16 @@
 .hero {
-    height: 36vh;
+    transform: translate(0%, 25%);
+    height: 20vh;
     width: 100%;
 }
 
-.page-title {
+.heading {
     flex-direction: column;
     width: 100%;
     text-align: center;
 }
 
-.page-title h1 {
+.heading h1 {
     font-size: var(--h2-font-size);
 }
 

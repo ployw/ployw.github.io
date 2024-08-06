@@ -1,0 +1,53 @@
+.card {
+    text-align: center;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 0.25rem;
+    background-color: white;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-title {
+    color: black;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+    font-size: var(--h3-font-size);
+}
+
+.card-description {
+    color: black;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.card-note {
+    color: black;
+    margin: 0.5rem;
+    font-size: var(--small-font-size);
+    text-align: center;
+}
+
+.card-highlight {
+    background-color: var(--secondary-lite-color);
+    padding: 4px;
+}
+
+.card-link {
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+}
+
+.card-button {
+    background-color: var(--bg-color);
+}
+
+.card-button:hover {
+    background-color: var(--bg-dark-color);
+    transition: 0.3s;
+}
+
+.card-notes {
+    flex-direction: row;
+}

@@ -1,0 +1,17 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 24rem);
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.grid-item {
+    margin: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .projects-grid {
+        grid-template-columns: repeat(1, 24rem);
+        gap: 0.5rem;
+    }
+}

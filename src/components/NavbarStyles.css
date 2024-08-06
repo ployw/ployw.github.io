@@ -10,7 +10,7 @@
 .header-bg {
     background-color: var(--bg-lite-color);
     opacity: 0.8;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .nav {

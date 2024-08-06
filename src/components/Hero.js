@@ -1,6 +1,5 @@
 import React from 'react'
 import "./HeroStyles.css"
-import { Link } from "react-router-dom"
 import ProfileImg from "../assets/ProfileImg.jpg"
 import Resume from "../files/resume.pdf"
 
@@ -9,7 +8,7 @@ const Hero = () => {
     <div className="home container">
       <div className="about-content">
         <div className="profile-img-container inner-div">
-            <img className="profile-img container" src={ProfileImg}>
+            <img className="profile-img container" alt="profile-pic" src={ProfileImg}>
             </img>
           </div>
           <p className="about-me inner-div">Hello! I'm <span className="highlight">Ploy Wandeevong</span>, an undergraduate junior studying Computer Science and Engineering.</p>

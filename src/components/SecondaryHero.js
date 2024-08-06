@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 import "./SecondaryHeroStyles.css"
 
-const SecondaryHero = () => {
-  return (
-    <div className="hero container">
-      <div className="page-title inner-div">
-          <h1>Projects</h1>
-          <h2 className="line"></h2>
+const SecondaryHero = ({
+  heading
+}) => {
+    return (
+      <div className="hero container">
+        <div className="heading inner-div">
+            <h1>{heading}</h1>
+            <h2 className="line"></h2>
+        </div>
       </div>
-    </div>
-  )
+    );
 }
 
 export default SecondaryHero
