@@ -1,10 +1,10 @@
 import React from 'react'
-import "./HeroImgStyles.css"
+import "./HeroStyles.css"
 import { Link } from "react-router-dom"
 import ProfileImg from "../assets/ProfileImg.jpg"
 import Resume from "../files/resume.pdf"
 
-const HeroImg = () => {
+const Hero = () => {
   return (
     <div className="home container">
       <div className="about-content">
@@ -12,7 +12,7 @@ const HeroImg = () => {
             <img className="profile-img container" src={ProfileImg}>
             </img>
           </div>
-          <p className="about-me inner-div">Hello! I'm <span className="highlight">Ploy Wandeevong</span>, an undergrad junior studying Computer Science and Engineering.</p>
+          <p className="about-me inner-div">Hello! I'm <span className="highlight">Ploy Wandeevong</span>, an undergraduate junior studying Computer Science and Engineering.</p>
         <div className="about-links container inner-div">
             <a target="_blank" className="link" href={Resume} rel="noopener noreferrer">
               <button className="button">
@@ -35,4 +35,4 @@ const HeroImg = () => {
   )
 }
 
-export default HeroImg
+export default Hero

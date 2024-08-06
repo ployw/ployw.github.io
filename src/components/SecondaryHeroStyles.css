@@ -1,0 +1,21 @@
+.hero {
+    height: 36vh;
+    width: 100%;
+}
+
+.page-title {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.page-title h1 {
+    font-size: var(--h2-font-size);
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid var(--text-color);
+    margin: 20px 0 20px;
+}
+
