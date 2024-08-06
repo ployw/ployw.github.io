@@ -1,15 +1,14 @@
 .home {
-    height: 50vh;
+    height: 46vh;
     width: 100%;
 }
 
 .about-me {
     text-align: center;
-    animation: fade-in 0.5s;
+    margin: 0.5rem;
 }
 
 .about-links {
-    animation: fade-in 0.5s;
     flex-direction: row;
 }
 
@@ -21,7 +20,6 @@
 .profile-img {
     clip-path: circle();
     width: 130px;
-    animation: fade-in 0.5s;
 }
 
 

@@ -6,13 +6,13 @@ import Resume from "../files/resume.pdf"
 const Hero = () => {
   return (
     <div className="home container">
-      <div className="about-content">
-        <div className="profile-img-container inner-div">
+      <div className="about-content fade-in inner-div">
+        <div className="profile-img-container">
             <img className="profile-img container" alt="profile-pic" src={ProfileImg}>
             </img>
           </div>
-          <p className="about-me inner-div">Hello! I'm <span className="highlight">Ploy Wandeevong</span>, an undergraduate junior studying Computer Science and Engineering.</p>
-        <div className="about-links container inner-div">
+          <p className="about-me ">Hello! I'm <span className="highlight">Ploy Wandeevong</span>, an undergraduate junior studying Computer Science and Engineering.</p>
+        <div className="about-links container">
             <a target="_blank" className="link" href={Resume} rel="noopener noreferrer">
               <button className="button">
                 Resume

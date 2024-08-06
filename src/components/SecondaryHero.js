@@ -6,7 +6,7 @@ const SecondaryHero = ({
 }) => {
     return (
       <div className="hero container">
-        <div className="heading inner-div">
+        <div className="heading inner-div fade-in">
             <h1>{heading}</h1>
             <h2 className="line"></h2>
         </div>

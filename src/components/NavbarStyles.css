@@ -22,7 +22,6 @@
 }
 
 .nav-menu {
-    animation: fade-in 0.5s;
     display: flex;
     column-gap: 2rem;
 }
@@ -32,7 +31,6 @@
 }
 
 .name-title {
-    animation: fade-in 0.5s;
     font-weight: var(--font-bold);
     font-size: var(--normal-font-size);
 }

@@ -40,7 +40,7 @@ body {
 }
 
 div {
-  /*outline: solid red;*/
+  outline: solid red;
 }
 
 h1, h2, h3, p, a {
@@ -124,4 +124,12 @@ button:hover {
   margin-inline-start: 1rem;
   margin-inline-end: 1rem;
   padding: 0.5rem;
+}
+
+.gen-margin {
+  padding: 0.5rem;
+}
+
+.fade-in {
+  animation: fade-in 0.3s;
 }

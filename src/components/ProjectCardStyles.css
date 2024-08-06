@@ -1,5 +1,4 @@
 .card {
-    animation: fade-in 0.5s;
     text-align: center;
     border-radius: 0.5rem;
     flex-direction: column;
