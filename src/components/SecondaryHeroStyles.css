@@ -1,6 +1,8 @@
 .hero {
-    height: 20vh;
+    padding-top: 3rem;
+    min-height: 140px;
     width: 100%;
+    margin-bottom: 1.5rem
 }
 
 .heading {

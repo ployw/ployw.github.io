@@ -7,7 +7,7 @@ import Pong from "../assets/Pong.png"
 
 const ProjectGrid = () => {
   return (
-    <div className="projects-grid container fade-in">
+    <div className="projects-grid container inner inner-div fade-in">
         <div className="grid-item">
             <ProjectCard 
             imgSrc={Auralys}

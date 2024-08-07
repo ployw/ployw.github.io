@@ -1,18 +1,11 @@
-.preview {
-    height: 100%;
+.preview-content {
     width: 100%;
-    flex-direction: column;
 }
-    
+
 .grid-container {
-    width: 75%;
+    width: 85%;
 }
 
-.grid-container .grid-item {
-    margin: 0;
+.grid-item {
+    margin: 1rem;
 }
-
-.view-button {
-    margin: 0.5rem;
-}
-

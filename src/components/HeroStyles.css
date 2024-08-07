@@ -1,11 +1,15 @@
 .home {
-    height: 46vh;
+    padding-top: 3rem;
+    min-height: 400px;
+    width: 100%;
+}
+
+.about-content {
     width: 100%;
 }
 
 .about-me {
     text-align: center;
-    margin: 0.5rem;
 }
 
 .about-links {

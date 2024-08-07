@@ -40,11 +40,12 @@ body {
 }
 
 div {
-  outline: solid red;
+  /* outline: solid red; */
 }
 
 h1, h2, h3, p, a {
   color: white;
+  margin: 0.25rem;
   font-size: var(--normal-font-size);
 }
 
@@ -82,12 +83,25 @@ button {
 
 .container {
   max-width: 968px;
-  display: flex;
   margin-left: auto;
   margin-right: auto;
+}
+
+.inner-div {
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+}
+
+.inner {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.col {
+  flex-direction: column;
+}
+
 
 .grid {
   display: grid;
@@ -118,12 +132,6 @@ button:hover {
 
 .icon.button:hover {
   background-color: var(--primary-hover-lite-color);
-}
-
-.inner-div {
-  margin-inline-start: 1rem;
-  margin-inline-end: 1rem;
-  padding: 0.5rem;
 }
 
 .gen-margin {
