@@ -9,8 +9,9 @@
   --primary-hover-dark-color: #c5979dd2;
   --primary-hover-lite-color: #c5979d33;
   --secondary-color: #F9EA9A;
+  --secondary-lite-color: #f9eb9aa2;
   --secondary-lite-color: #f9eb9a91;
-  --hover-color: rgb(185, 185, 185);
+  --footer-color: rgba(255, 255, 255, 0.226);
   --bg-color: #202023;
   --bg-dark-color: #000000;
   --bg-lite-color: #202023d7;
@@ -145,5 +146,6 @@ button:hover {
 }
 
 .page {
+  height: 100%;
   margin-bottom: 4.8rem;
 }

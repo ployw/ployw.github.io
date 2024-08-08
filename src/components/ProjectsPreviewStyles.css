@@ -1,3 +1,7 @@
+.preview {
+    min-height: 388px;
+}
+
 .preview-content {
     width: 100%;
 }
