@@ -6,6 +6,7 @@
 
 .about-content {
     width: 100%;
+    animation: fade-in 0.3s;
 }
 
 .about-me p {

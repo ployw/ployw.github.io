@@ -10,7 +10,6 @@
   --primary-hover-lite-color: #c5979d33;
   --secondary-color: #F9EA9A;
   --secondary-lite-color: #f9eb9aa2;
-  --secondary-lite-color: #f9eb9a91;
   --footer-color: rgba(255, 255, 255, 0.226);
   --bg-color: #202023;
   --bg-dark-color: #000000;
@@ -128,6 +127,18 @@ button {
   padding: 0.8rem;
 }
 
+.icon-2.button {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  outline: solid var(--bg-color);
+  outline-width: 1.5px;
+}
+
+.card-button.icon-2:hover {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
 button:hover {
   background-color: var(--primary-hover-dark-color);
   transition: 0.3s;
@@ -147,5 +158,22 @@ button:hover {
 
 .page {
   height: 100%;
+  width: 100%;
   margin-bottom: 4.8rem;
+}
+
+.animated {
+  scale: 0;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(3px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
 }

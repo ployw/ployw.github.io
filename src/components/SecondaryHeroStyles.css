@@ -1,15 +1,14 @@
 .hero {
-    padding-top: 4.8rem;
-    min-height: 140px;
+    padding-top: 5rem;
+    min-height: 180px;
     width: 100%;
-    margin-bottom: 2.4rem
+    animation: fade-in 0.3s;
 }
 
 .heading {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    transform: translate(0, 2.4rem);
 }
 
 .heading h1 {

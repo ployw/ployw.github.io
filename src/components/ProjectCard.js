@@ -22,12 +22,12 @@ const ProjectCard = ({
             <li className="card-item card-highlight" key={index}>{item}</li>
           ))}
         </ul>
-      </div>)}
       {buttonText && link && (<a className="card-link" target="_blank" href={link} rel="noopener noreferrer">
-        <button className="card-button button">
+        <button className="icon-2 button card-button">
           {buttonText}
         </button>
       </a>)}
+      </div>)}
     </div>
   )
 }
