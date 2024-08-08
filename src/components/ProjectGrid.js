@@ -13,9 +13,8 @@ const ProjectGrid = () => {
             imgSrc={Auralys}
             imgAlt="project image"
             title="🔊 Auralys"
-            description="A web application that enables users to generate and save Spotify playlists based on their written prompts."
-            note1="NextJS, Flask, Spotify API, OpenAI API"
-            note2="1st place in ACM's 2024 Biggest Little Hackathon, App Development Category"
+            description="A web application that enables users to generate and save Spotify playlists based on their written prompts. 1st place at ACM's 2024 Biggest Little Hackathon, Web App Category"
+            items={['Nextjs', 'OpenAI API', 'Spotify API', 'Flask']}
             link="https://github.com/joshmatni/Auralys-Spotify-Playlist-Generator"
             buttonText="Github"
             />
@@ -26,8 +25,7 @@ const ProjectGrid = () => {
             imgAlt="project image"
             title="💡 Arduino Water Cooler"
             description="Cooling system that monitors water level and temperature to trigger several states."
-            note1="Arduino ATmega2560, C"
-            note2=""
+            items={['Arduino ATmega2560', 'C']}
             link="https://github.com/ployw/Arduino-Water-Cooler"
             buttonText="Github"
             />
@@ -37,9 +35,8 @@ const ProjectGrid = () => {
             imgSrc={Pong}
             imgAlt="project image"
             title="🏓 Ping Pong"
-            description="Ping pong game application!"
-            note1="Raylib, C++, OOP"
-            note2="1st place in ACM's 2023 Biggest Little Hackathon, Beginner Category"
+            description="Ping pong game application! 1st place at ACM's 2023 Biggest Little Hackathon, Beginner Category"
+            items={['C++', 'OOP']}
             link="https://github.com/ployw/Hackathon2023_pong"
             buttonText="Github"
             />

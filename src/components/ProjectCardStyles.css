@@ -23,7 +23,14 @@
     margin: 0.8rem;
 }
 
-.card-note {
+.card-items-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.card-item {
     color: black;
     font-size: var(--small-font-size);
     text-align: center;
@@ -36,7 +43,7 @@
 
 .card-button {
     background-color: var(--bg-color);
-    margin: 0.8rem;
+    margin-bottom: 0.8rem;
 }
 
 .card-button:hover {

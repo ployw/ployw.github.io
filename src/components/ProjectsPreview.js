@@ -15,15 +15,14 @@ const ProjectsPreview = () => {
                     <ProjectCard
                         title="🔊 Auralys"
                         description="A web application that enables users to generate and save Spotify playlists based on their written prompts."
-                        note1="NextJS, Flask, Spotify API, OpenAI API"
-                        note2="1st place in ACM's 2024 Biggest Little Hackathon, App Development Category"
+                        items={['Nextjs', 'OpenAI API', 'Spotify API', 'Flask']}
                     />
                 </div>
                 <div className="grid-item">
                     <ProjectCard 
                         title="💡 Arduino Water Cooler"
                         description="Cooling system that monitors water level and temperature to trigger several states."
-                        note1="Arduino ATmega2560, C"
+                        items={['Arduino ATmega2560', 'C']}
                     />
                 </div>
             </div>
