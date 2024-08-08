@@ -5,7 +5,7 @@ import ProjectGrid from "../components/ProjectGrid"
 
 const Project = () => {
   return (
-    <div>
+    <div className="page">>
       <Navbar/>
       <SecondaryHero heading="Projects" />
       <ProjectGrid />

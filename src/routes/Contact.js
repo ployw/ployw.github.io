@@ -4,7 +4,7 @@ import SecondaryHero from "../components/SecondaryHero";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="page">
       <Navbar />
       <SecondaryHero heading="Contact me!" />
     </div>

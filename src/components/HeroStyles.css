@@ -1,6 +1,6 @@
 .home {
-    padding-top: 3rem;
-    min-height: 400px;
+    padding-top: 4.8rem;
+    min-height: 360px;
     width: 100%;
 }
 
@@ -30,6 +30,6 @@
 @media screen and (max-width: 640px)
 { 
     .home .about-content p {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 }

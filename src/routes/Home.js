@@ -5,7 +5,7 @@ import ProjectsPreview from "../components/ProjectsPreview"
 
 const Home = () => {
   return (
-    <div>
+    <div className="page">
       <Navbar/>
       <Hero />
       <ProjectsPreview />
