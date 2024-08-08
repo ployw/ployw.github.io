@@ -2,12 +2,16 @@
     min-height: 388px;
 }
 
+.preview-heading h3 {
+    font-size: var(--h3-font-size);
+}
+
 .preview-content {
     width: 100%;
 }
 
 .grid-container {
-    width: 85%;
+    width: 90%;
 }
 
 .grid-item {

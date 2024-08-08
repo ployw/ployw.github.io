@@ -19,6 +19,7 @@
 }
 
 .card-description {
+    font-size: var(--normal-font-size);
     color: black;
     margin: 0.8rem;
 }
