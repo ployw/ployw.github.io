@@ -12,9 +12,7 @@ const Project = () => {
         <SecondaryHero heading="Projects" />
         <ProjectGrid />
       </div>
-      <div className="page-footer">
-        <Footer />
-      </div>
+      <Footer />
     </>
   )
 }

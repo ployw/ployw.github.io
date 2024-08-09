@@ -12,9 +12,7 @@ const Home = () => {
         <Hero />
         <ProjectsPreview />
       </div>
-      <div className="page-footer">
-        <Footer />
-      </div>
+      <Footer />
     </>
   )
 }

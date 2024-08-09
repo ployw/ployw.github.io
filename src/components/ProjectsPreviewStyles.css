@@ -1,6 +1,6 @@
 .preview {
     min-height: 388px;
-    animation: fade-in 0.3s 0.1s backwards;
+    animation: fade-in 0.3s 0.15s backwards;
 }
 
 .preview-heading h3 {

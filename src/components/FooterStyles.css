@@ -1,7 +1,9 @@
 .footer {
     position: relative;
     bottom: 0;
-    margin: 1rem;
+    text-align: center;
+    width: 100%;
+    padding: 0rem 4.8rem 0.8rem 4.8rem;
 }
 
 .footer-content p {
