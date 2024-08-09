@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ployw/ployw.github.io/static/css/main.751218c8.css",
-    "main.js": "/ployw/ployw.github.io/static/js/main.ac95bbf3.js",
-    "static/media/Auralys.png": "/ployw/ployw.github.io/static/media/Auralys.30bfc8b591ee10bc5cbd.png",
-    "static/media/ProfileImg.jpg": "/ployw/ployw.github.io/static/media/ProfileImg.6e12a9553cea00c4df5b.jpg",
-    "static/media/Arduino.jpg": "/ployw/ployw.github.io/static/media/Arduino.54a81c09735ee5a4edd4.jpg",
-    "static/media/Pong.png": "/ployw/ployw.github.io/static/media/Pong.91176b2553e507c3a3a1.png",
-    "static/media/circular-std.ttf": "/ployw/ployw.github.io/static/media/circular-std.3fcb6535e39024a69e30.ttf",
-    "static/media/resume.pdf": "/ployw/ployw.github.io/static/media/resume.1e8a945385ccb9fae3b9.pdf",
-    "index.html": "/ployw/ployw.github.io/index.html",
-    "static/media/mail.svg": "/ployw/ployw.github.io/static/media/mail.284398557b455636a0beb6206c94de01.svg",
-    "main.751218c8.css.map": "/ployw/ployw.github.io/static/css/main.751218c8.css.map",
-    "main.ac95bbf3.js.map": "/ployw/ployw.github.io/static/js/main.ac95bbf3.js.map"
+    "main.css": "/home/static/css/main.81ed0fbe.css",
+    "main.js": "/home/static/js/main.5386c5a6.js",
+    "static/media/Auralys.png": "/home/static/media/Auralys.30bfc8b591ee10bc5cbd.png",
+    "static/media/ProfileImg.jpg": "/home/static/media/ProfileImg.6e12a9553cea00c4df5b.jpg",
+    "static/media/Arduino.jpg": "/home/static/media/Arduino.54a81c09735ee5a4edd4.jpg",
+    "static/media/Pong.png": "/home/static/media/Pong.91176b2553e507c3a3a1.png",
+    "static/media/circular-std.ttf": "/home/static/media/circular-std.3fcb6535e39024a69e30.ttf",
+    "static/media/resume.pdf": "/home/static/media/resume.1e8a945385ccb9fae3b9.pdf",
+    "index.html": "/home/index.html",
+    "static/media/mail.svg": "/home/static/media/mail.284398557b455636a0beb6206c94de01.svg",
+    "main.81ed0fbe.css.map": "/home/static/css/main.81ed0fbe.css.map",
+    "main.5386c5a6.js.map": "/home/static/js/main.5386c5a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.751218c8.css",
-    "static/js/main.ac95bbf3.js"
+    "static/css/main.81ed0fbe.css",
+    "static/js/main.5386c5a6.js"
   ]
 }
