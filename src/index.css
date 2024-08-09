@@ -37,8 +37,13 @@
   font-family: CircularStd, sans-serif;
 }
 
-body {
+html, body {
   background: var(--bg-color);
+  height: 100%;
+}
+
+body {
+
   word-break: break-word;
 }
 
@@ -125,7 +130,7 @@ button {
   background-color: var(--background-color);
   outline: solid var(--primary-color);
   outline-width: 1.5px;
-  padding: 0.6rem;
+  padding: 0.8rem;
 }
 
 .icon-2.button {
