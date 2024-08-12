@@ -1,5 +1,5 @@
 Ploy Wandeevong
-Personal Portfolio built with ReactJS
+Personal Website built with React and JS
 
 
 
