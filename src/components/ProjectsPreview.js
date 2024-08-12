@@ -12,17 +12,17 @@ const ProjectsPreview = () => {
             </div>
             <div className="grid-container">
                 <div className="grid-item">
+                    <ProjectCard 
+                    title="🗒️ NotesPal"
+                    description="A full-stack application where users, either anonymously or not, can customize and post notes on a message board."
+                    items={['React', 'Node.js', 'MySQL']}
+                    />
+                </div>
+                <div className="grid-item">
                     <ProjectCard
                         title="🔊 Auralys"
                         description="A web application that enables users to generate and save Spotify playlists based on their written prompts."
                         items={['Nextjs', 'OpenAI API', 'Spotify API', 'Flask']}
-                    />
-                </div>
-                <div className="grid-item">
-                    <ProjectCard 
-                        title="💡 Arduino Water Cooler"
-                        description="Cooling system that monitors water level and temperature to trigger several states."
-                        items={['Arduino ATmega2560', 'C']}
                     />
                 </div>
             </div>

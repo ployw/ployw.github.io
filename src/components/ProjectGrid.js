@@ -12,6 +12,15 @@ const ProjectGrid = () => {
             <ProjectCard 
             imgSrc={Auralys}
             imgAlt="project image"
+            title="🗒️ NotesPal"
+            description="A full-stack application where users, either anonymously or not, can customize and post notes on a message board."
+            items={['React', 'Node.js', 'MySQL']}
+            />
+        </div>
+        <div className="grid-item">
+            <ProjectCard 
+            imgSrc={Auralys}
+            imgAlt="project image"
             title="🔊 Auralys"
             description="A web application that enables users to generate and save Spotify playlists based on their written prompts. 1st place at ACM's 2024 Biggest Little Hackathon, Web App Category"
             items={['Nextjs', 'OpenAI API', 'Spotify API', 'Flask']}
