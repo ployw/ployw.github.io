@@ -2,18 +2,19 @@ import React from 'react'
 import "./ProjectGridStyles.css"
 import ProjectCard from "../components/ProjectCard"
 import Auralys from "../assets/Auralys.png"
-import Arduino from "../assets/Arduino.jpg"
+import Arduino from "../assets/Arduino.png"
 import Pong from "../assets/Pong.png"
+import NotesPal from "../assets/NotesPal.png"
 
 const ProjectGrid = () => {
   return (
     <div className="projects-grid container inner inner-div">
         <div className="grid-item">
             <ProjectCard 
-            imgSrc={Auralys}
+            imgSrc={NotesPal}
             imgAlt="project image"
             title="🗒️ NotesPal"
-            description="A full-stack application where users, either anonymously or not, can customize and post notes on a message board."
+            description="A full-stack application for people to share their thoughts and messages, either anonymously or not. Users can create and customize posts on a message board."
             items={['React', 'Node.js', 'MySQL']}
             />
         </div>

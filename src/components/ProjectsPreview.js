@@ -14,7 +14,7 @@ const ProjectsPreview = () => {
                 <div className="grid-item">
                     <ProjectCard 
                     title="🗒️ NotesPal"
-                    description="A full-stack application where users, either anonymously or not, can customize and post notes on a message board."
+                    description="A full-stack application for people to share their thoughts and messages, either anonymously or not. Users can create and customize posts on a message board."
                     items={['React', 'Node.js', 'MySQL']}
                     />
                 </div>
