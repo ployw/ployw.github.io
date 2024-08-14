@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7958c1e.css",
-    "main.js": "/static/js/main.427cee84.js",
+    "main.css": "/static/css/main.7313da2e.css",
+    "main.js": "/static/js/main.5c35e888.js",
     "static/media/Auralys.png": "/static/media/Auralys.30bfc8b591ee10bc5cbd.png",
     "static/media/ProfileImg.jpg": "/static/media/ProfileImg.6e12a9553cea00c4df5b.jpg",
-    "static/media/Arduino.jpg": "/static/media/Arduino.54a81c09735ee5a4edd4.jpg",
-    "static/media/Pong.png": "/static/media/Pong.91176b2553e507c3a3a1.png",
+    "static/media/Arduino.png": "/static/media/Arduino.54a81c09735ee5a4edd4.png",
+    "static/media/NotesPal.png": "/static/media/NotesPal.91c59120bfa0214cf190.png",
     "static/media/circular-std.ttf": "/static/media/circular-std.3fcb6535e39024a69e30.ttf",
-    "static/media/resume.pdf": "/static/media/resume.1e8a945385ccb9fae3b9.pdf",
+    "static/media/resume.pdf": "/static/media/resume.f99a63268b98407ff51f.pdf",
+    "static/media/Pong.png": "/static/media/Pong.77f9e506fe4e761f0060.png",
     "static/media/mail.svg": "/static/media/mail.284398557b455636a0beb6206c94de01.svg",
     "index.html": "/index.html",
-    "main.a7958c1e.css.map": "/static/css/main.a7958c1e.css.map",
-    "main.427cee84.js.map": "/static/js/main.427cee84.js.map"
+    "main.7313da2e.css.map": "/static/css/main.7313da2e.css.map",
+    "main.5c35e888.js.map": "/static/js/main.5c35e888.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7958c1e.css",
-    "static/js/main.427cee84.js"
+    "static/css/main.7313da2e.css",
+    "static/js/main.5c35e888.js"
   ]
 }
