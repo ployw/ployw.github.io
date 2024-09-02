@@ -13,7 +13,7 @@ const Hero = () => {
             </img>
           </div>
         <div className="about-me inner">
-          <p>Hello! I'm <span className="highlight">Ploy Wandeevong</span>, an undergraduate junior studying Computer Science and Engineering.</p>
+          <p>Hello! I'm <span className="highlight">Ploy Wandeevong</span>, an aspiring Software Developer.</p>
         </div>
         <div className="about-links container inner">
             <a target="_blank" className="link" href={Resume} rel="noopener noreferrer">

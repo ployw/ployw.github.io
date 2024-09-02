@@ -21,7 +21,7 @@ const ProjectsPreview = () => {
                 <div className="grid-item">
                     <ProjectCard
                         title="🔊 Auralys"
-                        description="A web application that enables users to generate and save Spotify playlists based on their written prompts."
+                        description="A web application that generates and saves Spotify playlists for users based on their prompts."
                         items={['Nextjs', 'OpenAI API', 'Spotify API', 'Flask']}
                     />
                 </div>
