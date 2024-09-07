@@ -113,7 +113,6 @@ button {
   flex-direction: column;
 }
 
-
 .grid {
   display: grid;
   gap: 2.4rem;
@@ -132,8 +131,7 @@ button {
 .icon.button {
   background-color: var(--background-color);
   outline: solid var(--primary-color);
-  outline-width: 1.5px;
-  padding: 0.8rem;
+  outline-width: 0.1rem;
 }
 
 .icon-2.button {
@@ -142,12 +140,12 @@ button {
   color: var(--text-color);
   margin: 0;
   outline: solid var(--secondary-color);
-  outline-width: 1.5px;
   height: 2.4rem;
   width: 2.4rem;
+  outline-width: 0.1rem;
 }
 
-.card-button.icon-2:hover {
+.icon-2:hover {
   background-color: var(--secondary-hover-lite-color);
   transition: 0.3s;
 }

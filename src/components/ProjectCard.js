@@ -31,10 +31,10 @@ const ProjectCard = ({
           ))}
         </ul>
       {buttonText && link && (<a className="card-link" target="_blank" href={link} rel="noopener noreferrer">
-        <button className="icon-2 button card-button">
+        <button className="icon-2 button">
           {buttonText}
         </button>
-      </a>)}
+        </a>)}
       </div>)}
     </div>
   )
