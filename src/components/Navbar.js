@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import "./NavbarStyles.css"
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa"
-import Resume from "../files/resume.pdf"
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -34,11 +33,6 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to="/projects">Projects</Link>
-                </li>
-                <li>
-                    <a target="_blank" className="link" href={Resume} rel="noopener noreferrer"> 
-                        Resume 
-                    </a>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
