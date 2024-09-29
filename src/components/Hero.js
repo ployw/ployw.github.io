@@ -11,7 +11,7 @@ const Hero = () => {
             </img>
           </div>
         <div className="about-me inner">
-          <p>Hello! I'm <span className="highlight">Ploy Wandeevong</span>, an aspiring Software Developer.</p>
+          <p>Hello! I'm <span className="highlight">Ploy Wandeevong</span>, an aspiring Software Engineer.</p>
         </div>
         <div className="about-links container inner">
             <a target="_blank" className="link" href="https://github.com/ployw" rel="noopener noreferrer">

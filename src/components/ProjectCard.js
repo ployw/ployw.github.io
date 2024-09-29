@@ -19,24 +19,24 @@ const ProjectCard = ({
   }, [link]);
 
   return (
-    <div className="card container">
-      {imgSrc && imgAlt && (<img className="card-img" src={imgSrc} alt={imgAlt}>
-      </img>)}
-      {title && (<h1 className="card-title">{title}</h1>)}
-      {description && (<p className="card-description">{description}</p>)}
-      {items && (<div className={buttonActive ? "card-items container inner button-active" : "card-items container inner button-inactive"}>
-        <ul className="card-items-list">
-          {items.map((item, index) => (
-            <li className="card-item card-highlight" key={index}>{item}</li>
-          ))}
-        </ul>
-      {buttonText && link && (<a className="card-link" target="_blank" href={link} rel="noopener noreferrer">
-        <button className="icon-2 button">
-          {buttonText}
-        </button>
-        </a>)}
-      </div>)}
-    </div>
+    <div className="card">
+            {imgSrc && imgAlt && (<img className="card-img" src={imgSrc} alt={imgAlt}>
+            </img>)}
+            {title && (<h1 className="card-title">{title}</h1>)}
+            {description && (<p className="card-description">{description}</p>)}
+            {items && (<div className={buttonActive ? "card-items container inner button-active" : "card-items container inner button-inactive"}>
+                <ul className="card-items-list">
+                {items.map((item, index) => (
+                    <li className="card-item card-highlight" key={index}>{item}</li>
+                ))}
+                </ul>
+            {buttonText && link && (<a className="card-link" target="_blank" href={link} rel="noopener noreferrer">
+                <button className="icon-2 button">
+                {buttonText}
+                </button>
+                </a>)}
+            </div>)}
+      </div>
   )
 }
 

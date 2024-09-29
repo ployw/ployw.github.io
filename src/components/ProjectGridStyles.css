@@ -2,8 +2,8 @@
     animation: fade-in 0.3s 0.15s backwards;
     display: grid;
     grid-template-columns: repeat(2, 38.4rem);
-    gap: 3.2rem;
     width: 100%;
+    align-items: stretch;
 }
 
 @media screen and (max-width: 1040px) {

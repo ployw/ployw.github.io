@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const ProjectsPreview = () => {
   return (
     <div className="preview container inner inner-div">
-        <div className="preview-content inner col">
+        <div className="inner col">
             <div className="preview-heading">
                 <h3>What I've been working on..</h3>
             </div>
