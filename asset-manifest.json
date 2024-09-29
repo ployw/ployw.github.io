@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa51c92c.css",
-    "main.js": "/static/js/main.08412dd3.js",
+    "main.css": "/static/css/main.8f141108.css",
+    "main.js": "/static/js/main.53f3873f.js",
     "static/media/Arduino.png": "/static/media/Arduino.26c8a754fc38c200b833.png",
     "static/media/Auralys.png": "/static/media/Auralys.30bfc8b591ee10bc5cbd.png",
     "static/media/ProfileImg.jpg": "/static/media/ProfileImg.6e12a9553cea00c4df5b.jpg",
@@ -9,11 +9,11 @@
     "static/media/circular-std.ttf": "/static/media/circular-std.3fcb6535e39024a69e30.ttf",
     "static/media/Pong.png": "/static/media/Pong.77f9e506fe4e761f0060.png",
     "index.html": "/index.html",
-    "main.fa51c92c.css.map": "/static/css/main.fa51c92c.css.map",
-    "main.08412dd3.js.map": "/static/js/main.08412dd3.js.map"
+    "main.8f141108.css.map": "/static/css/main.8f141108.css.map",
+    "main.53f3873f.js.map": "/static/js/main.53f3873f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa51c92c.css",
-    "static/js/main.08412dd3.js"
+    "static/css/main.8f141108.css",
+    "static/js/main.53f3873f.js"
   ]
 }
