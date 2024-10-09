@@ -3,13 +3,12 @@
     text-align: center;
     flex-direction: column;
     background-color: var(--card-color);
-    padding: 0.8rem;
-    height: 100%;
     border-radius: 0.6rem;
+    padding: 0.8rem;
 }
 
-.card-content {
-    flex-grow: 1;
+.card.full {
+    height: 34rem;
 }
 
 .card-img {
@@ -24,7 +23,9 @@
     font-size: var(--normal-font-size);
 }
 
+
 .card-description {
+    flex-grow: 1;
     font-size: var(--small-font-size);
     margin: 1rem;
 }
@@ -33,6 +34,7 @@
     display: flex;
     flex-direction: row;
     column-gap: 1.2rem;
+    margin-bottom: 0.8rem;
 }
 
 .card-item {
@@ -51,16 +53,16 @@
     padding: 0.4rem 0.8rem 0.4rem 0.8rem;
 }
 
+.card-items {
+    column-gap: 0.75rem;
+}
+
 .button-inactive {
     margin-bottom: 1.6rem;
 }
 
 .button-active {
     margin-bottom: 0.8rem;
-}
-
-.card-items {
-    column-gap: 0.75rem;
 }
 
 @media screen and (max-width: 1040px) {
