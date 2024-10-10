@@ -40,9 +40,9 @@
 }
 
 
-@media screen and (max-width: 640px)
+/* @media screen and (max-width: 640px)
 { 
     .home .about-content p {
         font-size: var(--h3-font-size);
     }
-}
+} */
