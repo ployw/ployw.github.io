@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.2abfe2e5.css",
+    "main.css": "/static/css/main.211c1c27.css",
     "main.js": "/static/js/main.30cfa950.js",
     "static/media/Arduino.png": "/static/media/Arduino.26c8a754fc38c200b833.png",
     "static/media/Auralys.png": "/static/media/Auralys.30bfc8b591ee10bc5cbd.png",
+    "static/media/CascadiaMono.ttf": "/static/media/CascadiaMono.d3365ea61baa563ae8df.ttf",
     "static/media/ProfileImg.jpg": "/static/media/ProfileImg.6e12a9553cea00c4df5b.jpg",
     "static/media/NotesPal.png": "/static/media/NotesPal.819c11d2a78643f36fde.png",
     "static/media/circular-std.ttf": "/static/media/circular-std.3fcb6535e39024a69e30.ttf",
     "static/media/Pong.png": "/static/media/Pong.77f9e506fe4e761f0060.png",
     "index.html": "/index.html",
-    "main.2abfe2e5.css.map": "/static/css/main.2abfe2e5.css.map",
+    "main.211c1c27.css.map": "/static/css/main.211c1c27.css.map",
     "main.30cfa950.js.map": "/static/js/main.30cfa950.js.map"
   },
   "entrypoints": [
-    "static/css/main.2abfe2e5.css",
+    "static/css/main.211c1c27.css",
     "static/js/main.30cfa950.js"
   ]
 }
