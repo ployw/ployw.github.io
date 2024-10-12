@@ -4,6 +4,12 @@
   font-display: swap;
 }
 
+@font-face {
+    font-family: 'CascadiaMono';
+    src: local('CascadiaMono'), url(./fonts/CascadiaMono/CascadiaMono.ttf) format('truetype');
+    font-display: swap;
+}
+
 :root {
   --text-color: #fff;
   --primary-color: #a84973;
@@ -38,7 +44,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: CircularStd, sans-serif;
+  font-family: CascadiaMono, sans-serif;
 }
 
 html, body {
