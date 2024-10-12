@@ -19,6 +19,7 @@
 }
 
 .card-title {
+    margin-top: auto;
     margin: 0.8rem 0.8rem 0rem 0.8rem;
     font-size: var(--normal-font-size);
 }
@@ -26,6 +27,7 @@
 
 .card-description {
     flex-grow: 1;
+    text-wrap: stable;
     font-size: var(--small-font-size);
     margin: 1rem;
     align-content: center;

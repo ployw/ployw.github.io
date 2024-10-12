@@ -1,12 +1,10 @@
 .home {
     padding-top: 4.8rem;
-    min-height: 346px;
+    min-height: 342px;
     width: 100%;
 }
 
 .about-content {
-    border-radius: 0.6rem;
-    margin-top: 2rem;
     padding: 0.8rem;
     flex-direction: column;
     gap: 0.4rem;
@@ -26,6 +24,7 @@
 }
 
 .about-me p {
+    text-wrap: balance;
     font-size: var(--small-font-size);
 }
 

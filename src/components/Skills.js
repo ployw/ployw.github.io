@@ -9,6 +9,8 @@ export default class Skills extends Component {
                 <h3>Skills and Technologies</h3>
             </div>
             <div className="skills-list">
+              <ul>
+              </ul>
             </div>
             </div>
         </div>

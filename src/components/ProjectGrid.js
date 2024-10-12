@@ -38,7 +38,7 @@ const ProjectGrid = () => {
             imgAlt="project image"
             title="🏓 Ping Pong"
             description="A Ping pong game! Try to score against a bot."
-            items={['C++', 'OOP']}/>
+            items={['C++', 'Raylib']}/>
         </div>
     </div>
   )

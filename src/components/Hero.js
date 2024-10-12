@@ -6,10 +6,6 @@ const Hero = () => {
   return (
     <div className="home container inner inner-div">
       <div className="about-content inner">
-        <div className="profile-img-container inner">
-            <img className="profile-img container" alt="profile-pic" src={ProfileImg}>
-            </img>
-          </div>
         <div className="about-me inner">
           <h2>Hello, I'm <span className="highlight">Ploy Wandeevong</span>!</h2>
           <p>I am currently a junior studying Computer Science and Engineering with an interest in full-stack development. I enjoy learning new skills and applying them to build fun, practical, and challenging projects. I'm always looking to learn, collaborate with others, and grow as a developer!</p>

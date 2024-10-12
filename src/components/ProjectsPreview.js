@@ -16,6 +16,7 @@ const ProjectsPreview = () => {
                         title="🎾 Pickle.io"
                         description="An application for local pickleball players to easily track teams and matches for MLP-format leagues."
                         isPreview={true}
+                        items={['React', 'TypeScript', 'Supabase']}
                     />
                 </div>
                 <div className="grid-item">
@@ -23,6 +24,7 @@ const ProjectsPreview = () => {
                         title="🗒️ NotesPal"
                         description="Inspired by The Unsent Project, this platform allows users to share heartfelt messages, either anonymously or not, on a public message board."
                         isPreview={true}
+                        items={['React', 'Node.js', 'MySQL']}
                     />
                 </div>
             </div>
