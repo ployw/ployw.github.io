@@ -6,10 +6,10 @@
 
 :root {
   --text-color: #fff;
-  --primary-color: #C5979D;
-  --primary-hover-dark-color: #c5979dd2;
+  --primary-color: #a84973;
+  --primary-hover-dark-color: #72324f;
   --primary-hover-lite-color: #c5979d33;
-  --secondary-color: #F9EA9A;
+  --secondary-color: #fde1eb;
   --secondary-hover-lite-color: #f9eb9a3f;
   --footer-color: rgba(255, 255, 255, 0.226);
   --bg-color: #202023;
@@ -23,7 +23,7 @@
   --h3-font-size: 1.8rem;
   --normal-font-size: 1.6rem;
   --small-font-size: 1.4rem;
-  --label-font-size: 1rem;
+  --label-font-size: 1.2rem;
 
   --font-bold: 800;
   --font-normal: 100;

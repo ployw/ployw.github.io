@@ -5,6 +5,7 @@
 }
 
 .about-content {
+    line-height: 2rem;
     padding: 0.8rem;
     flex-direction: column;
     gap: 0.4rem;

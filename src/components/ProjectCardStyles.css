@@ -19,13 +19,13 @@
 }
 
 .card-title {
-    margin-top: auto;
     margin: 0.8rem 0.8rem 0rem 0.8rem;
     font-size: var(--normal-font-size);
 }
 
 
 .card-description {
+    line-height: 2rem;
     flex-grow: 1;
     text-wrap: stable;
     font-size: var(--small-font-size);
