@@ -1,6 +1,6 @@
 .home {
     padding-top: 4.8rem;
-    min-height: 342px;
+    min-height: 300px;
     width: 100%;
 }
 
@@ -40,9 +40,9 @@
 }
 
 
-/* @media screen and (max-width: 640px)
+@media screen and (max-width: 640px)
 { 
-    .home .about-content p {
-        font-size: var(--h3-font-size);
+    .home {
+        min-height: 342px;
     }
-} */
+}
