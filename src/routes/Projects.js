@@ -1,15 +1,14 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
-import SecondaryHero from "../components/SecondaryHero"
+import PageTitle from "../components/PageTitle"
 import ProjectGrid from "../components/ProjectGrid"
 import Footer from "../components/Footer"
 
-const Project = () => {
+const Projects = () => {
   return (
     <>
       <div className="page">
-        <Navbar/>
-        <SecondaryHero heading="Projects" />
+        <PageTitle heading="Projects" />
         <ProjectGrid />
       </div>
       <Footer />
@@ -17,4 +16,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Projects

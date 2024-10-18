@@ -1,43 +1,40 @@
 import React from 'react'
-import "./ProjectsPreviewStyles.css"
+import "./styles/ProjectsPreviewStyles.css"
 import ProjectCard from "./ProjectCard.js"
 import { Link } from "react-router-dom"
+import { Projects } from "../data/ProjectsData.js";
 
 const ProjectsPreview = () => {
-  return (
-    <div className="preview container inner inner-div">
-        <div className="inner col">
-            <div className="preview-heading">
-                <h3>What I've been working on..</h3>
-            </div>
-            <div className="grid-container">
-                <div className="grid-item">
-                    <ProjectCard
-                        title="🎾 Pickle.io"
-                        description="An application for local pickleball players to easily track teams and matches for MLP-format leagues."
-                        isPreview={true}
-                        items={['React', 'TypeScript', 'Supabase']}
-                    />
+    return (
+        <div className="preview container inner inner-div">
+            <div className="inner col">
+                <div className="preview-heading">
+                    <h3>What I've been working on..</h3>
                 </div>
-                <div className="grid-item">
-                    <ProjectCard 
-                        title="🗒️ NotesPal"
-                        description="Inspired by The Unsent Project, this platform allows users to share heartfelt messages, either anonymously or not, on a public message board."
-                        isPreview={true}
-                        items={['React', 'Node.js', 'MySQL']}
-                    />
+                <div className="grid-container">
+                    {Projects.slice(0, 2).map((project, i) => {
+                        return (
+                            <div key={i} className="grid-item">
+                                <ProjectCard
+                                    title={project.title}
+                                    description={project.description}
+                                    isPreview={true}
+                                    items={project.items}
+                                />
+                            </div>
+                        );
+                    })}
                 </div>
-            </div>
-            <div className="view-button inner">
-                <Link to="/projects">
-                    <button className="button">
-                        View all
-                    </button>
-                </Link>
+                <div className="view-button inner">
+                    <Link to="/projects">
+                        <button className="button">
+                            View all
+                        </button>
+                    </Link>
+                </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default ProjectsPreview
