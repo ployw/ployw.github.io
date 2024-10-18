@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from "../components/Navbar";
 import PageTitle from "../components/PageTitle"
 import ProjectGrid from "../components/ProjectGrid"
 import Footer from "../components/Footer"
