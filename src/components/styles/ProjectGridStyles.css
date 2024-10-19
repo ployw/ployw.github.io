@@ -12,7 +12,7 @@
     }
 }
 
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 400px) {
     .projects-grid {
         grid-template-columns: repeat(1, 34rem);
     }
