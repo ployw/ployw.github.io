@@ -1,7 +1,7 @@
 import React from 'react'
-import PageTitle from "../components/PageTitle"
-import ProjectGrid from "../components/ProjectGrid"
-import Footer from "../components/Footer"
+import PageTitle from "../components/common/PageTitle"
+import ProjectGrid from "../components/projects/ProjectGrid"
+import Footer from "../components/common/Footer"
 
 const Projects = () => {
   return (

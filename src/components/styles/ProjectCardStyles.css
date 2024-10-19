@@ -23,26 +23,22 @@
     font-size: var(--normal-font-size);
 }
 
-
 .card-description {
     line-height: 1.8rem;
     flex-grow: 1;
     text-wrap: stable;
     font-size: var(--small-font-size);
-    margin: 1rem;
+    margin: 0.8rem;
     align-content: center;
 }
 
 .card-items-list {
-    font-size: var(--mobile-font-size);
+    font-size: var(--label-font-size);
     display: flex;
-    flex-direction: row;
-    column-gap: 1.2rem;
+    gap: 1.6rem;
     margin: 0.8rem;
-}
-
-.card-item {
-    text-align: center;
+    justify-content: center;
+    
 }
 
 .card-link {
@@ -54,4 +50,10 @@
     border-radius: 0.3rem;
     background-color: var(--secondary-color);
     padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+
+@media screen and (max-width: 445px) {
+    .card-items-list {
+        gap: 0.8rem;
+    }
 }

@@ -1,16 +1,16 @@
 import React from 'react'
-import Hero from "../components/Hero";
-import ProjectsPreview from "../components/ProjectsPreview"
-import Footer from "../components/Footer"
-import Skills from "../components/Skills"
+import Hero from "../components/home/Hero";
+import ProjectsPreview from "../components/home/ProjectsPreview"
+import Footer from "../components/common/Footer"
+import Skills from "../components/home/Skills"
 
 const Home = () => {
   return (
     <>
       <div className="page">
         <Hero />
-        <ProjectsPreview />
         {/* <Skills /> */}
+        <ProjectsPreview />
       </div>
       <Footer />
     </>

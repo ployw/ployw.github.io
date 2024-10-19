@@ -3,8 +3,8 @@ import "./index.css"
 import Home from "./routes/Home";
 import Projects from "./routes/Projects";
 import { Route, Routes } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
-import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/common/ScrollToTop";
+import Navbar from "./components/common/Navbar";
 
 
 function App() {

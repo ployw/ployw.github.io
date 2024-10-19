@@ -1,11 +1,11 @@
 import React from 'react'
-import "./styles/ProjectGridStyles.css"
-import ProjectCard from "../components/ProjectCard"
-import { Projects } from "../data/ProjectsData"
+import "../styles/ProjectGridStyles.css"
+import ProjectCard from "../common/ProjectCard"
+import { Projects } from "../../data/ProjectsData"
 
 const ProjectGrid = () => {
     return (
-        <div className="projects-grid container inner inner-div">
+        <div className="fade-in projects-grid container inner inner-div">
             {Projects.map((project, i) => {
                 return (
                     <div key={i} className="grid-item">

@@ -1,0 +1,13 @@
+.heading h3 {
+    font-size: var(--h3-font-size);
+    margin-top: 1.6rem;
+}
+
+.grid-container {
+    width: 90%;
+}
+
+.grid-item {
+    margin: 1.6rem;
+}
+

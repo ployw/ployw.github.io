@@ -1,8 +1,6 @@
 .hero {
-    padding-top: 4.8rem;
-    min-height: 136px;
+    padding-top: 9.6rem;
     width: 100%;
-    animation: fade-in 0.3s 0.1s backwards;
 }
 
 .heading {

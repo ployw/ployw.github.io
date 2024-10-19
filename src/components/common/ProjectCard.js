@@ -1,4 +1,4 @@
-import "./styles/ProjectCardStyles.css"
+import "../styles/ProjectCardStyles.css"
 
 const ProjectCard = ({
   imgSrc,
@@ -17,7 +17,7 @@ const ProjectCard = ({
       </img>)}
       {title && (<h1 className="card-title">{title}</h1>)}
       {description && (<p className="card-description">{description}</p>)}
-      {items && (<div className="card-items container inner">
+      {items && (<div className="card-items inner">
         <ul className="card-items-list">
           {items.map((item, index) => (
             <li className="card-item card-highlight" key={index}>{item}</li>

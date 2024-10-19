@@ -1,9 +1,9 @@
 .projects-grid {
-    animation: fade-in 0.3s 0.15s backwards;
     display: grid;
     grid-template-columns: repeat(2, 38.4rem);
     width: 100%;
     align-items: stretch;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1040px) {

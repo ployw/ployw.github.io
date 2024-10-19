@@ -1,14 +1,14 @@
 import React from 'react'
-import "./styles/ProjectsPreviewStyles.css"
-import ProjectCard from "./ProjectCard.js"
+import "../styles/SectionStyles.css"
+import ProjectCard from "../common/ProjectCard.js"
 import { Link } from "react-router-dom"
-import { Projects } from "../data/ProjectsData.js";
+import { Projects } from "../../data/ProjectsData.js";
 
 const ProjectsPreview = () => {
     return (
-        <div className="preview container inner inner-div">
-            <div className="inner col">
-                <div className="preview-heading">
+        <div className="fade-in container center inner-div">
+            <div className="center col">
+                <div className="heading">
                     <h3>What I've been working on..</h3>
                 </div>
                 <div className="grid-container">
@@ -25,7 +25,7 @@ const ProjectsPreview = () => {
                         );
                     })}
                 </div>
-                <div className="view-button inner">
+                <div className="view-button center">
                     <Link to="/projects">
                         <button className="button">
                             View all
