@@ -151,22 +151,6 @@ button {
   outline-width: 0.1rem;
 }
 
-.icon-2.button {
-  display: inline-flex;
-  background-color: transparent;;
-  color: var(--text-color);
-  margin: 0;
-  outline: solid var(--secondary-color);
-  height: 2.4rem;
-  width: 2.4rem;
-  outline-width: 0.1rem;
-}
-
-.icon-2:hover {
-  background-color: var(--secondary-hover-lite-color);
-  transition: 0.3s;
-}
-
 button:hover {
   background-color: var(--primary-hover-dark-color);
   transition: 0.3s;
@@ -185,6 +169,7 @@ button:hover {
 }
 
 .page {
+  justify-content: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
