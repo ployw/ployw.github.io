@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 400px) {
     .projects-grid {
-        grid-template-columns: repeat(1, 36rem);
+        grid-template-columns: repeat(1, 34rem);
     }
 }
 

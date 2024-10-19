@@ -18,7 +18,7 @@ export const Projects = [{
     title: "🔊 Auralys",
     description: "A web application that generates and saves Spotify playlists for users based on their prompts.",
     img: AuralysImg,
-    items: ["Next.js", "OpenAI API", "Spotify API", "Flask"]
+    items: ["Next.js", "Flask"]
 },
 {
     title: "🏓 Ping Pong",
