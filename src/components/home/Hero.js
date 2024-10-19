@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="fade-in container home center inner-div">
             <div className="about-content center">
                 <div className="about-me center">
-                    <h2>Hello, I'm <span className="highlight">Ploy</span>!</h2>
+                    <h1>Hello, I'm <span className="highlight">Ploy</span>!</h1>
                     <p>{AboutMe.about}</p>
                 </div>
                 <div className="about-links center">

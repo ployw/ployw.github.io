@@ -7,7 +7,7 @@ const PageTitle = ({
   return (
     <div className="fade-in hero container inner inner-div">
       <div className="heading">
-        <h1>{heading}</h1>
+        <h3>{heading}</h3>
       </div>
     </div>
   );

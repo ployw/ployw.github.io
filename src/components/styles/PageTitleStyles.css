@@ -1,5 +1,5 @@
 .hero {
-    padding-top: 9.6rem;
+    padding-top: var(--header-height);
     width: 100%;
 }
 
@@ -8,8 +8,3 @@
     width: 100%;
     text-align: center;
 }
-
-.heading h1 {
-    font-size: var(--h2-font-size);
-}
-

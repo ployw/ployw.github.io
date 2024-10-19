@@ -34,11 +34,6 @@
     font-weight: var(--font-normal);
 }
 
-.nav-menu li a {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-normal);
-}
-
 .hamburger {
     display: none;
 }
@@ -72,7 +67,7 @@
     }
 
     .nav-menu li a {
-        font-size: 2.4rem;
+        font-size: var(--h2-font-size);
     }
 
     .hamburger {
