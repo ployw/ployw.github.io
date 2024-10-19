@@ -51,9 +51,3 @@
     background-color: var(--secondary-color);
     padding: 0.4rem 0.8rem 0.4rem 0.8rem;
 }
-
-@media screen and (max-width: 445px) {
-    .card-items-list {
-        gap: 0.8rem;
-    }
-}

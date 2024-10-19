@@ -10,13 +10,10 @@ const Skills = () => {
                 <div className="heading">
                     <h3>Skills</h3>
                 </div>
-                <div>
-                    <div className="grid-item">
-                        <ProjectCard
-                            isPreview={true}
-                            items={Tech.skillList}
-                        />
-                    </div>
+                <div className="skill-list center inner-div">
+                    {Tech.skillList.map((item, index) => (
+                        <p className="card-highlight" key={index}>{item}</p>
+                    ))}
                 </div>
             </div>
         </div>
