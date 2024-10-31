@@ -1,5 +1,6 @@
-.heading h3 {
+.heading p {
     margin-top: 1.6rem;
+    font-size: var(--h3-font-size);
 }
 
 .grid-container {

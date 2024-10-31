@@ -28,7 +28,6 @@
 
 .about-links {
     flex-direction: row;
-
 }
 
 @media screen and (max-width: 775px) {

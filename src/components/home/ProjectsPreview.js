@@ -9,7 +9,7 @@ const ProjectsPreview = () => {
         <div className="fade-in container center inner-div">
             <div className="center col">
                 <div className="heading">
-                    <h3>What I've been working on..</h3>
+                    <p>What I've been working on..</p>
                 </div>
                 <div className="grid-container">
                     {Projects.slice(0, 2).map((project, i) => {
@@ -25,11 +25,9 @@ const ProjectsPreview = () => {
                         );
                     })}
                 </div>
-                <div className="view-button center">
-                    <Link to="/projects">
-                        <button className="button">
-                            View all
-                        </button>
+                <div className="center">
+                    <Link className="button" to="/projects">
+                        View all
                     </Link>
                 </div>
             </div>

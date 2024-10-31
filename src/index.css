@@ -33,6 +33,7 @@
   --font-normal: 100;
 
   font-size: 10px;
+  font-display: swap;
 }
 
 #root {
@@ -138,11 +139,12 @@ button {
 .button {
   text-align: center;
   display: inline-flex;
-  padding: 0.8rem;
-  margin: 0.4rem;
+  padding: 1rem;
+  margin: 0.8rem;
   border-radius: 0.6rem;
   background-color: var(--primary-color);
   color: var(--text-color);
+  font-size: var(--small-font-size);
 }
 
 .icon.button {
@@ -151,13 +153,15 @@ button {
   outline-width: 0.1rem;
 }
 
-button:hover {
+.button:hover {
   background-color: var(--primary-hover-dark-color);
+  color: var(--text-color);
   transition: 0.3s;
 }
 
 .icon.button:hover {
   background-color: var(--primary-hover-lite-color);
+  transition: 0.3s;
 }
 
 .gen-margin {
