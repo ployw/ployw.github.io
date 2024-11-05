@@ -3,6 +3,11 @@ import PongImg from "../assets/Pong.png"
 import NotesPalImg from "../assets/NotesPal.png"
 
 export const Projects = [{
+    title: "🛎️ Doorbell Bot",
+    description: "A smart doorbell system that sends a notification to your Discord when someone rings and displays your response in LED indicators.",
+    items: ["Python", "Raspberry Pi 3 Model B"]
+},
+{
     title: "🎾 Pickle.io",
     description: "An application for local pickleball players to easily track teams and matches for MLP-format leagues.",
     img: "",
