@@ -1,14 +1,14 @@
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(2, 38rem);
+    grid-template-columns: repeat(2, 40rem);
     width: 100%;
     align-items: stretch;
     justify-content: center;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 800px) {
     .projects-grid {
-        grid-template-columns: repeat(1, 38rem);
+        grid-template-columns: repeat(1, 40rem);
     }
 }
 
