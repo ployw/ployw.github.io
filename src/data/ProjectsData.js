@@ -1,9 +1,11 @@
 import AuralysImg from "../assets/Auralys.png"
 import PongImg from "../assets/Pong.png"
 import NotesPalImg from "../assets/NotesPal.png"
+import DoorbellIMG from "../assets/Doorbell.png"
 
 export const Projects = [{
     title: "🛎️ Doorbell Bot",
+    img: DoorbellIMG,
     description: "A smart doorbell system that sends a notification to your Discord when someone rings and displays your response in LED indicators.",
     items: ["Python", "Raspberry Pi 3 Model B"]
 },
