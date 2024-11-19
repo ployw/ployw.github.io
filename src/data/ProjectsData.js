@@ -6,7 +6,7 @@ import DoorbellIMG from "../assets/Doorbell.png"
 export const Projects = [{
     title: "🛎️ Doorbell Bot",
     img: DoorbellIMG,
-    description: "A smart doorbell system that sends a notification to your Discord when someone rings and displays your response in LED indicators.",
+    description: "A doorbell system that uses a Discord bot to send you a notification when someone rings and to return your response.",
     items: ["Python", "Raspberry Pi 3 Model B"]
 },
 {
